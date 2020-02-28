@@ -43,7 +43,7 @@ def self.find_by_name(name)
     end.first
   end
   
-  def self.
+  def self.first_x_students_in_grade_10
   
   
   def save
