@@ -49,7 +49,8 @@ def self.find_by_name(name)
     WHERE grade = 10  
     LIMIT ? 
     SQL
-DB[:conn].execute(sql).map do |row|    
+DB[:conn].execute(sql).map do |row|
+  
   end 
   
   def self.all_students_in_grade_X(grade)
