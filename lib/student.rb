@@ -69,6 +69,8 @@ def self.first_X_students_in_grade_10(x)
   SELECT * FROM students 
   WHERE grade = 10 
  LIMIT ?
+ SQL 
+ 
   
   def save
     sql = <<-SQL
