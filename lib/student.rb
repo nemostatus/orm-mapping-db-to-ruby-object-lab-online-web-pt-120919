@@ -29,7 +29,7 @@ class Student
     sql = <<-SQL  
     SELECT * FROM students 
     SQL
-     
+ DB[:conn].execute    
 def self.find_by_name(name)
   sql = <<-SQL 
   SELECT * FROM students WHERE name = ? LIMIT 1 
