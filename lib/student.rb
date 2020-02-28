@@ -63,7 +63,8 @@ end
       self.new_from_db(row)
   end 
 end 
-  
+
+def self.first_X_students_in_grade_10
   
   def save
     sql = <<-SQL
