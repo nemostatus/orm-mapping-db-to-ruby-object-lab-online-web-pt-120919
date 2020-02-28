@@ -43,7 +43,7 @@ def self.find_by_name(name)
     end.first
   end
   
-  def self.first_x_students_in_grade_10(x)
+  def self.first_x_students_in_grade_10(grade)
     sql = <<-SQL 
     SELECT * FROM students 
     
