@@ -43,7 +43,7 @@ def self.find_by_name(name)
     end.first
   end
   
-  
+  def self.retrieving
   
   
   def save
