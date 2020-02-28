@@ -11,7 +11,7 @@ class Student
 
   def self.all_students_in_grade_9
   sql = <<-SQL
-  SELECT name FROM students WHERE
+  SELECT name FROM students WHERE grade = 
   SQL
   DB[:conn].execute(sql)
   end
