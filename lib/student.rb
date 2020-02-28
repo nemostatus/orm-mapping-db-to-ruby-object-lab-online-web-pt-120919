@@ -48,7 +48,7 @@ def self.find_by_name(name)
     SELECT * FROM students 
     WHERE grade = 10  
     LIMIT ? 
-    
+    SQL
     
   end 
   
