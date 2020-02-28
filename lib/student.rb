@@ -65,7 +65,8 @@ end
 end 
 
 def self.first_X_students_in_grade_10(x)
-  sql = << -SQL 
+  sql = <<-SQL 
+  SELECT * FROM students 
   
   def save
     sql = <<-SQL
