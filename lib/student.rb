@@ -49,7 +49,7 @@ def self.find_by_name(name)
     WHERE grade = 10  
     LIMIT ? 
     SQL
-DB[:conn].execute(sql).map do |row|
+DB[:conn].execute(sql,x).map do |row|
   self.new_from_db(row)
 end
   end 
