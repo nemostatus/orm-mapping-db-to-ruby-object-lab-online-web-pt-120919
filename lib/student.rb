@@ -69,6 +69,8 @@ def self.first_student_in_grade_10(x)
   SELECT * FROM students 
   WHERE grade = 10 
   SQL
+
+
   def save
     sql = <<-SQL
       INSERT INTO students (name, grade) 
